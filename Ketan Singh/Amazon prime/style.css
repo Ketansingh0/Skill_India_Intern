@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Black+Ops+One&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(16, 16, 16);
+}
+
+/* style for navbar */
+.navbar {
+    background-color: rgb(21, 21, 21);
+    height: 55px;
+}
+
+#logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20%;
+}
+
+.navbar>ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar>ul>li>a {
+    padding: 10px;
+    color: #fff;
+    background: rgb(21, 21, 21);
+}
+.navbar>ul>li>a>svg{
+    height: 30px;
+    width: 30px;
+}
+.navbar>ul>li {
+    float: left;
+    /* width: 25%; */
+    text-align: center;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+.navbar>ul>li>a:hover {
+    background: rgb(52, 52, 52);
+}
+.navbar > ul > li>a>select{
+    font-size: 20px;
+    background: inherit;
+    color: #fff;
+    border: none;
+}
+
+
+/* style for body content */
+/* style for main class */
+.s {
+    margin-left: 670px;
+
+}
+
+.k {
+    color: #fff;
+    font-size: 45px;
+    margin-top: -370px;
+    margin-left: 40px;
+}
+
+.t {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: sanchez;
+}
+
+.button {
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 15px 92px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #078bb7;
+    margin-left: 45px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.e {
+    margin-top: 15px;
+    float: right;
+}
+
+/* Style for main1 class */
+.main1 {
+    position: relative;
+    margin-top: 12%;
+}
+
+.main1>img {
+    width: 100%;
+    height: auto;
+}
+
+.k1 {
+    position: absolute;
+    bottom: 70%;
+    right: 8%;
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+}
+
+.t1 {
+    position: absolute;
+    bottom: 63%;
+    right: 10%;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+}
+
+.button2 {
+    position: absolute;
+    bottom: 40%;
+    right: 25%;
+    background-color: #078bb7;
+    border-radius: 3px;
+}
+
+/* Style for main2 class */
+.main2 {
+    position: relative;
+}
+
+.main2>img {
+    width: 100%;
+    height: auto;
+}
+
+.k2 {
+    position: absolute;
+    bottom: 55%;
+    left: 4%;
+    font-size: 50px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.t2 {
+    position: absolute;
+    bottom: 40%;
+    left: 4%;
+    font-size: 25px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: lighter;
+}
+
+/* style for main3 class */
+
+.main3 {
+    position: relative;
+}
+
+.main3>img {
+    width: 100%;
+    height: auto;
+}
+
+.k3 {
+    position: absolute;
+    bottom: 75%;
+    right: 12%;
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+}
+
+.t3 {
+    position: absolute;
+    bottom: 53%;
+    right: 4%;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+}
+
+.button3 {
+    position: absolute;
+    bottom: 33%;
+    right: 29%;
+    background-color: #078bb7;
+    border-radius: 3px;
+}
+
+/* style for main4 class */
+
+.main4 {
+    position: relative;
+}
+
+.main4>img {
+    width: 100%;
+    height: auto;
+}
+
+.k4 {
+    position: absolute;
+    bottom: 75%;
+    left: 4%;
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+}
+
+.t4 {
+    position: absolute;
+    bottom: 57%;
+    left: 4%;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+}
+
+.button4 {
+    position: absolute;
+    bottom: 33%;
+    left: 4%;
+    background-color: #078bb7;
+    border-radius: 3px;
+}
+
+/* style for footer class*/
+.footer {
+    width: 100%;
+    height: 20%;
+    background-color: #242424;
+}
+
+.footer>img {
+    width: 150px;
+    height: 70px;
+    margin-top: 3px;
+    margin-left: 45%;
+}
+
+.other {
+    padding-bottom: 3%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.other>a {
+    color: #5c9ff7;
+    margin-left: 10px;
+}
+
+.other>p {
+    color: #777676;
+    margin-top: 5px;
+}
